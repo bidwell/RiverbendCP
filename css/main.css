@@ -1,0 +1,282 @@
+
+
+header {
+	background:#9e2036 url('../img/glow.jpg') no-repeat -75px -70px;
+	color: white;
+	padding-top: 20px;	
+}
+header .vcard {
+	text-align: right;
+	margin:10px 50px 0 0; 
+	
+}
+.glow {
+	position: relative;
+	left: -300px;
+}
+.logo {
+	margin-left: 20px;
+}
+.navbar {
+	width: auto;
+	margin: 0 auto 0;
+}
+
+#myCarousel {
+	margin: -9px 0 1px 0;
+}
+
+#myCarousel img {
+	margin: 0 auto 0;
+	width: 100%;
+	
+}
+.carousel-indicators {
+	position: relative;
+	margin-left: 50%;
+
+	}
+.carousel-indicators li {
+	background-color:#9e2036;
+}
+
+.carousel-indicators .active {
+  	background-color: #2cade4;
+}
+
+.carousel-control {
+	margin: 0 20px;
+}
+carousel-inner {
+	
+}
+
+.nav a {
+	text-align: center;
+
+}
+
+.nav li {
+	border-top:10px solid #4c131a;
+	margin-top: -10px;
+	padding-bottom: 5px;
+}
+.navbar  {
+	border-top:10px solid #4c131a;
+}
+.nav li:hover {
+	border-top:10px solid #2cade4;
+	margin-top: -10px;
+}
+.sub-nav li {
+	display: inline-block;
+	
+	padding: 0 10px 5px 10px;
+	border-right: 2px solid #2cade4;	
+}
+.sub-nav {
+	margin: 20px 0 0 -10px;	
+}
+.sub-nav li:last-child {
+border-right: none;
+	
+}
+.stripe {
+	background-color: #f5f2eb; 
+}
+
+.stripe .row {
+	padding: 0px 0 20px 0;
+}
+.rr {
+	border-right: 2px solid #9e2036;
+}
+.rw {
+	border-right: 1px solid white;
+}
+.stripe p {
+	font-family: 'liberation_serifitalic';
+	padding: 0 40px 0 30px;
+	color: #9e2036;
+	font-size: 1.2em;
+	height: auto;
+	
+}
+.stripe h3 {
+	font-family: 'michromaregular';
+	padding:10px 30px 10px 30px;
+	color: #9e2036;
+	font-weight: normal;
+}
+.welcome h3 {
+	text-align: center;
+	padding-bottom: 10px;
+	color: #9e2036;
+	font-weight: normal;	
+}
+.welcome p {
+	margin-bottom: 50px;
+	font-size: 1.2em;
+	color: #9e2036;
+	font-weight: normal;
+}
+.welcome {
+	margin: 30px 0 60px 0;
+}
+.about {
+	margin: 0 0 30px 0;
+}
+.description {
+	font-size: 1.2em;
+	
+}
+
+.description h4 {
+	padding-bottom: 20px;
+	margin-top: 0;
+	
+}
+.bottom {
+	background-color: #f5f2eb; 
+	padding-top: 40px
+}
+.business {
+	margin-top: 40px
+}
+.business h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.business div {
+	margin-bottom: 40px;
+	columns:100px 2;
+	-webkit-columns:100px 2; 
+	-moz-columns:100px 2; 
+	column-gap:50px;
+	-moz-column-gap:50px; 
+	-webkit-column-gap:50px; 
+	font-size: 1.2em;
+}
+footer {
+	background-color: #9e2036;
+	color: white;
+	padding: 30px 0 30px 0;
+}
+footer ul {
+	margin-top: 30px;
+}
+footer li {
+	margin-bottom: 10px
+}
+.ol {
+	outline: 1px solid green;
+}
+.font {
+	 font-family: 'michromaregular';
+}
+.vcard {
+	height: 160px;
+}
+.tenant-list {
+	margin:30px 0 50px 0;
+
+
+}
+.tenant-list h3 {
+	margin-bottom: -10px;
+
+
+}
+.tenant-list ul {
+	list-style: none;
+	font-size: 1.2em;
+	
+
+}
+
+.tenant-list .span4 {
+	margin-top: 20px;
+	height: 60px;
+
+
+}
+.decisions {
+	padding-bottom: 30px;
+}
+.decisions p {
+	margin: 0 0 30px 0;
+	font-family: 'liberation_serifitalic';
+	font-size: 1.2em
+}
+.decisions h4 {
+	color: #9e2036;
+	font-size: 1.5em;
+}
+.lot_title {
+	background-color: #9e2036;
+	color: white;
+	font-family: 'michromaregular';
+}
+.lot_header {
+	color: #9e2036;
+	font-weight: bold;
+	 background-color:#f5f2eb;
+	 font-family: 'michromaregular';
+	
+}
+.lot_total {
+ font-weight:bold;
+
+	
+}
+
+.lease h3 {
+	font-family: 'michromaregular';
+	color: #9e2036;
+	margin-top: -10px;
+	
+}
+.lease a, p {
+font-size: 1.2em;
+	
+}
+.amenities {
+	background-color: #f5f2eb; 
+	padding: 20px 0 20px 0;
+	
+}
+.amenities h2 {
+	text-align: center;
+	font-family: 'michromaregular';
+	color: #9e2036;
+	margin: -15px 0 20px 0;	
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+	
+}
+@media (max-width: 979px){
+.nav li {
+	border-top:none !important;
+	margin-top: 20px;
+	padding-bottom: 5px;
+	height: 50px;
+		
+}
+.nav a {
+	color: white !important;
+		
+}
+
+.nav li:hover {
+	border-top:none !important;
+	margin-top: none !important;
+	
+}
+.nav a:hover {
+	border-top:none !important;
+	margin-top: none !important;
+	
+}
+
+}
