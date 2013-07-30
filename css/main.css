@@ -31,11 +31,7 @@ header .vcard {
 	width: 100%;
 	
 }
-.carousel-indicators {
-	
 
-
-	}
 .carousel-indicators li {
 	background-color:#9e2036;
 }
@@ -50,7 +46,6 @@ header .vcard {
 carousel-inner {
 	
 }
-
 .nav a {
 	text-align: center;
 
@@ -65,8 +60,8 @@ carousel-inner {
 	border-top:10px solid #4c131a;
 }
 .nav li:hover {
-	border-top:10px solid #2cade4;
-	margin-top: -10px;
+	border-top:11px solid #2cade4;
+	margin-top: -11px;
 }
 .sub-nav li {
 	display: inline-block;
@@ -82,7 +77,9 @@ border-right: none;
 	
 }
 .stripe {
-	background-color: #f5f2eb; 
+	background-color: #f5f2eb;
+	border-bottom: 1px solid #f1e0d3; 
+	border-top: 1px solid #f1e0d3; 
 }
 
 .stripe .row {
@@ -138,7 +135,9 @@ border-right: none;
 }
 .bottom {
 	background-color: #f5f2eb; 
-	padding-top: 40px
+	padding-top: 40px;
+	border-top: 1px solid #f1e0d3; 
+	
 }
 .business {
 	margin-top: 40px
@@ -173,6 +172,10 @@ footer li {
 }
 .font {
 	 font-family: 'michromaregular';
+}
+.red {
+	color: #9e2036;
+	
 }
 .vcard {
 	height: 160px;
@@ -237,12 +240,13 @@ footer li {
 	
 }
 .lease a, p {
-font-size: 1.2em;
+	font-size: 1.2em;
 	
 }
 .amenities {
 	background-color: #f5f2eb; 
 	padding: 20px 0 20px 0;
+	border-top: 1px solid #f1e0d3; 
 	
 }
 .amenities h2 {
@@ -251,32 +255,65 @@ font-size: 1.2em;
 	color: #9e2036;
 	margin: -15px 0 20px 0;	
 }
+.tenantInfo img {
+	margin: 50px 0 ;
+}
+.navactive {
+	border-top:11px solid #2cade4;
+	margin-top: -11px;
+
+}
+
 
 @media (min-width: 768px) and (max-width: 979px){
 	
 }
-@media (max-width: 979px){
+@media (max-width: 767px){
+.navbar-inner ul {
+	padding-top: 30px;
+}
 .nav li {
-	border-top:none !important;
-	margin-top: 20px;
-	padding-bottom: 5px;
-	height: 50px;
-		
+	border-top:transparent !important;
+	
+			
 }
 .nav a {
-	color: white !important;
+	color: white;
+	height: 40px;
 		
 }
 
 .nav li:hover {
-	border-top:none !important;
-	margin-top: none !important;
+	border-top:transparent !important;
+	
 	
 }
 .nav a:hover {
-	border-top:none !important;
-	margin-top: none !important;
+	border-top:transparent !important;
+	
+}
+.rr {
+	border-right:none;
+}
+.rw {
+	border-right: none;
+}
+footer {
+	padding-left: 20px;
+}
+.navactive {
+	border-top:transparent !important;
+	color: #2cade4 !important;
 	
 }
 
+}
+@media (max-width: 767px){
+header .vcard {
+	text-align: left;
+	float: left;
+	margin: 20px 0 -40px 20px; 
+	
+
+	
 }
