@@ -10,10 +10,6 @@ header .vcard {
 	margin:10px 50px 0 0; 
 	
 }
-.glow {
-	position: relative;
-	left: -300px;
-}
 .logo {
 	margin-left: 20px;
 }
@@ -236,7 +232,7 @@ footer li {
 .lease h3 {
 	font-family: 'michromaregular';
 	color: #9e2036;
-	margin-top: -10px;
+	margin-top: 0;
 	
 }
 .lease a, p {
@@ -255,8 +251,8 @@ footer li {
 	color: #9e2036;
 	margin: -15px 0 20px 0;	
 }
-.tenantInfo img {
-	margin: 50px 0 ;
+.tenantInfo {
+	margin-bottom:20px;
 }
 .navactive {
 	border-top:11px solid #2cade4;
